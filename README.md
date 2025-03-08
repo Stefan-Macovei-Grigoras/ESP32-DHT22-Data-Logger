@@ -2,6 +2,8 @@
 This project uses an **ESP32** microcontroller to read **temperature and humidity** data from a **DHT22 (AM2302) sensor** and send the data to a **WebSocket server**. The server then forwards the data to a **webpage**, where real-time temperature and humidity updates are displayed.
 The goal is to demonstrate Internet of Things principles by connecting an embedded device to a web-based dashboard.
 
+![Client Screenshot](client.png)
+
 ## Schema
 Below is the **schematic of the hardware setup**, created using [Fritzing](https://fritzing.org/)
 
