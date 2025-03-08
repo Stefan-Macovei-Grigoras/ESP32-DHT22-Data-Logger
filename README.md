@@ -1,6 +1,6 @@
 ## Overview
 This project uses an **ESP32** microcontroller to read **temperature and humidity** data from a **DHT22 (AM2302) sensor** and send the data to a **WebSocket server**. The server then forwards the data to a **webpage**, where real-time temperature and humidity updates are displayed.
-The goal is to demonstrate IoT (Internet of Things) principles by connecting an embedded device (ESP32) to a web-based dashboard.
+The goal is to demonstrate Internet of Things principles by connecting an embedded device to a web-based dashboard.
 
 ## Schema
 Below is the **schematic of the hardware setup**, created using [Fritzing](https://fritzing.org/)
@@ -42,7 +42,10 @@ Below is the **schematic of the hardware setup**, created using [Fritzing](https
    ```
    Install Dependencies
    ```bash
-   npm install
+   npm instal
+   ```
+   Start the Client
+   ```bash
    npm run dev
    ```
    Your React application should now be running at http://localhost:5173.
