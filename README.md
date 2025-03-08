@@ -1,5 +1,3 @@
-# ESP32 DHT22 WebSocket Data Logger
-
 ## Overview
 This project uses an **ESP32** microcontroller to read **temperature and humidity** data from a **DHT22 (AM2302) sensor** and send the data to a **WebSocket server**. The server then forwards the data to a **webpage**, where real-time temperature and humidity updates are displayed.
 The goal is to demonstrate IoT (Internet of Things) principles by connecting an embedded device (ESP32) to a web-based dashboard.
