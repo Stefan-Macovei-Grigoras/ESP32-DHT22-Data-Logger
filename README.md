@@ -42,7 +42,10 @@ Below is the **schematic of the hardware setup**, created using [Fritzing](https
    ```
    Install Dependencies
    ```bash
-   npm install
+   npm instal
+   ```
+   Start the Client
+   ```bash
    npm run dev
    ```
    Your React application should now be running at http://localhost:5173.
